@@ -1,6 +1,6 @@
 -module(libbtc_ex).
 -export([derive/2]).
--on_load(init/0).
+//-on_load(init/0).
 
 -define(APPNAME, libbtc_ex).
 -define(LIBNAME, libbtc_ex_nif).
