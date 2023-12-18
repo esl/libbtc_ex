@@ -35,7 +35,8 @@ defmodule Libbtc_ex.Mixfile do
 
   defp deps() do
     [
-      {:mix_erlang_tasks, "0.1.0", runtime: false},
+      {:mix_erlang_tasks,
+       git: "https://github.com/radixpool/mix-erlang-tasks", branch: "master", override: true},
       {:ex_doc, "~> 0.17", only: :dev, runtime: false}
     ]
   end
